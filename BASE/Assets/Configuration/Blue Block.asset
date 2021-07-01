@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca53d81c9f045134e9f3a19155575646, type: 3}
+  m_Name: Blue Block
+  m_EditorClassIdentifier: 
+  _kind: 1
+  _leftBackground: {fileID: 21300000, guid: dbe7507952aef264ebae00a71f4720ea, type: 3}
+  _rightBackground: {fileID: 21300000, guid: 4376bbd9841091949ad5b626c03896c8, type: 3}
+  _speachKind: 6
+  _colorText: blue
+  _robotPrefab: {fileID: 535099928719034141, guid: d98d6d1ad542fa4419e2e204f9002a6f, type: 3}
+  _scaleFactor: 1.45
+  _robotConfigurations:
+  - robotPart: 0
+    image: {fileID: 21300000, guid: b2f85acaf90da954e9ef91676eb60b60, type: 3}
+    maxDragOffset: 0
+  - robotPart: 1
+    image: {fileID: 21300000, guid: 106f8288392058b44963d3bd7ee402b1, type: 3}
+    maxDragOffset: 50
+  - robotPart: 2
+    image: {fileID: 21300000, guid: 9971a4166b0f15c43a2203b23fa1a45c, type: 3}
+    maxDragOffset: 50
+  - robotPart: 3
+    image: {fileID: 21300000, guid: 111e2a0fad18a844aa7e2ad3e72e7d38, type: 3}
+    maxDragOffset: 40
+  - robotPart: 4
+    image: {fileID: 21300000, guid: ab0942b948f47fb45b19c67ed2a84ecb, type: 3}
+    maxDragOffset: 40

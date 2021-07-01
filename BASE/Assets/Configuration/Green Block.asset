@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca53d81c9f045134e9f3a19155575646, type: 3}
+  m_Name: Green Block
+  m_EditorClassIdentifier: 
+  _kind: 0
+  _leftBackground: {fileID: 21300000, guid: 7e280db135d8cad41a4593f4e099c3cf, type: 3}
+  _rightBackground: {fileID: 21300000, guid: 65ef8095b2692ad43a898ed962fecff1, type: 3}
+  _speachKind: 5
+  _colorText: green
+  _robotPrefab: {fileID: -4271271311207718548, guid: 9d20799bd3f40b344a7793b1b89be541, type: 3}
+  _scaleFactor: 1.6
+  _robotConfigurations:
+  - robotPart: 0
+    image: {fileID: 21300000, guid: c688fb9b59329e64b9e1d4c75f22db09, type: 3}
+    maxDragOffset: 0
+  - robotPart: 1
+    image: {fileID: 21300000, guid: e1897ee3fb1ee0e46af30a33498e49f3, type: 3}
+    maxDragOffset: 50
+  - robotPart: 2
+    image: {fileID: 21300000, guid: c77b90d3bd1172042b8fa4178e970544, type: 3}
+    maxDragOffset: 50
+  - robotPart: 3
+    image: {fileID: 21300000, guid: 4c896aeca9d5aec448c2e5b56af77f8d, type: 3}
+    maxDragOffset: 40
+  - robotPart: 4
+    image: {fileID: 21300000, guid: bf2d78f85d1e25f44b3b4f72a3de789c, type: 3}
+    maxDragOffset: 40
+  - robotPart: 5
+    image: {fileID: 21300000, guid: 84a3580ce0a44f348851e20db4aee8e4, type: 3}
+    maxDragOffset: 40
+  - robotPart: 6
+    image: {fileID: 21300000, guid: 0eb931b1feb534f45b4342dbd0c86b4d, type: 3}
+    maxDragOffset: 40
